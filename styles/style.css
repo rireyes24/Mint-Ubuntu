@@ -1,0 +1,70 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: "consolas", sans-serif;
+}
+
+#headerGit
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gitTitle
+{
+    width: 70%;
+    border-radius: 20px;
+}
+
+.gitTitle h1
+{
+    font-size: 3rem;
+    text-align: center;
+    color: blue;
+}
+
+.gitTitle h2
+{    
+    margin-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+    color: red;
+}
+
+#mainGit
+{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gitImage img
+{
+    width: 100px;
+}
+
+.gitParrafo
+{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.gitParrafo p
+{
+    font-size: 1.4rem;
+}
