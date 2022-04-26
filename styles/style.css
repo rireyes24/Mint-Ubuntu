@@ -30,7 +30,7 @@ html
 {
     font-size: 3rem;
     text-align: center;
-    color: green;
+    color: black;
 }
 
 .gitTitle h2
@@ -38,7 +38,7 @@ html
     margin-top: 10px;
     font-size: 2rem;
     text-align: center;
-    color: red;
+    color: black;
 }
 
 #mainGit
@@ -51,14 +51,28 @@ html
     align-items: center;
 }
 
-.gitImage img
+.gitImage
 {
-    width: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgGit
+{    
+    width: 200px;
+}
+
+.imgUbu
+{    
+    width: 200px;    
 }
 
 .gitParrafo
 {
     width: 80%;
+    margin-top: 16px;
+    margin-bottom: 16px;
     padding: 10px;
     border: 1px solid blue;
     border-radius: 10px;
@@ -67,4 +81,14 @@ html
 .gitParrafo p
 {
     font-size: 1.4rem;
+}
+
+.mint-Green
+{
+    color: green;
+}
+
+.ubuntu-Red
+{
+    color: red;
 }
